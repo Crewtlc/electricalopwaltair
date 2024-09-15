@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Signika', signika;
+    margin: 20px;
+    padding: 0;
+    background-color:  #FFF4F2; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #FFF4F2;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.railway-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Signika', sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
